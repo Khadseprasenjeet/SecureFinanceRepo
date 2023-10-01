@@ -10,9 +10,12 @@
         "ignore": [
           "-ms-filter",
           "text-align: -webkit-match-parent",
-          "-webkit-text-size-adjust"
+          "-webkit-text-size-adjust",
+          "scrollbar-color",
+          "scrollbar-width"
         ]
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }
