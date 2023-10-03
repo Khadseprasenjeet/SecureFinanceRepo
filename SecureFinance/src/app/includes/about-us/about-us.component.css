@@ -1,0 +1,197 @@
+
+nav {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPxxuQIoWpe2ULI_lbBqSkStmTQ6rhl4poyqm2t7pHlMZRl_DqPkFhCteUeKQfNTzYg8&usqp=CAU");
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ 
+ nav h3 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+ }
+ .small-image {
+    width: 100px;
+    height: auto;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f3f3f3;
+  }
+ 
+ 
+ .card {
+    display: flex;
+    align-items: center;
+    width: 15cm;
+    height: 2.5cm;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+  
+ 
+  .card-image {
+    width: 110px;
+    height: 60px;
+    padding-left: 30px;
+  }
+  
+ 
+  .card-content {
+    flex-grow: 1; 
+  }
+ 
+ 
+  
+  .centered-box {
+    background-image: url("https://cdn.wallpapersafari.com/11/28/dqGQP4.jpg");
+    background-size: cover;
+    width: 15cm;
+    height: 1.8cm;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .overview {
+    position: relative;
+    width: 15cm;
+    height: 2.5cm;
+    background-color: #fefefe;
+    background-size: cover;
+    text-align: center; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-top: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+ 
+  .overview h3 {
+    position: absolute;
+    top: 10%;
+    left: 160px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #717171;
+    margin: 0;
+  }
+ 
+  .description {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    top: 30%;
+    text-align: left;
+    left: 165px;
+    padding-right: 30px;
+  }
+ 
+  .investor-relations{
+    position: relative;
+    width: 15cm;
+    height: 2.5cm;
+    background-color: #fefefe;
+    background-size: cover;
+    text-align: center; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-top: 230px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    right: 140px;
+  }
+ 
+  .investor-relations h3{
+    position: absolute;
+    top: 10%;
+    right: 227px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #717171;
+    margin: 0;
+  }
+ 
+  .stakeholders-information{
+    position: relative;
+    width: 15cm;
+    height: 2.5cm;
+    background-color: #fefefe;
+    background-size: cover;
+    text-align: center; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-top: 230px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    right: 140px;
+  }
+ 
+  .stakeholders-information h3{
+    position: absolute;
+    top: 10%;
+    right: 255px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #717171;
+    margin: 0;
+  }
+ 
+  .news-room{
+    position: relative;
+    width: 15cm;
+    height: 2.5cm;
+    background-color: #fefefe;
+    background-size: cover;
+    text-align: center; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-top: 230px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    right: 140px;
+  }
+ 
+  .news-room h3{
+    position: absolute;
+    top: 10%;
+    left: 35px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #717171;
+    margin: 0;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
