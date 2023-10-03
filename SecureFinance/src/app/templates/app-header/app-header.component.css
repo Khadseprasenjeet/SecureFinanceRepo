@@ -1,0 +1,18 @@
+nav{
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+h1{
+    color: white;
+    margin: 0px,5px,0px,0px;
+    padding: 0;
+    
+
+}
+button{
+    margin-left: 400px;
+    margin-top: 10px;
+    height: 30px;
+}

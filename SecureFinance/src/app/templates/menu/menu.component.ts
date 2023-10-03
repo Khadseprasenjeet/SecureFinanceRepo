@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserOptions } from 'src/app/model/user-options';
 
 @Component({
   selector: 'app-menu',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
 
+  menus:Array<any>;
+  type:string;
+ngOnInit(): void {
+ this.menus= UserOptions.userOptions;
+ console.log(this.menus);
+
+this.type=sessionStorage.getItem('type');
+
 }
+
+}
+

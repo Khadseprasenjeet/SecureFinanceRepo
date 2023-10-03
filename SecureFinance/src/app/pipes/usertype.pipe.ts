@@ -5,7 +5,25 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class UsertypePipe implements PipeTransform {
 
-  transform(value: unknown, ...args: unknown[]): unknown {
+  transform(value: String, ...args: unknown[]): String {
+
+    if(value=='re')
+       {
+         return "RelationShip Execetive..!"
+       }
+       else if(value=='oe')
+       {
+         return "Operational Execetive..!"
+       }
+       else if(value=='cm')
+       {
+        return "Chief Manager...!"
+       }
+       else if(value=='ah')
+       {
+        return "Account Head..!"
+
+       }
     return null;
   }
 

@@ -1,1 +1,9 @@
-<p>emicalculator works!</p>
+
+<div align="center">
+    Loan Amount:<input type="number" [(ngModel)]="loanAmount" /><br >
+    Tenure in Months:<input type="number" [(ngModel)]="tenure" /> <br >
+    interest:
+    <input type="number" [(ngModel)]="interest" /><br>
+    <button (click)="cal()">Calculate</button><br>
+    <h1>EMI:{{ emi }}/m</h1>
+    </div>
