@@ -25,7 +25,7 @@ export class UserOptions {
               admin:[
                 {label:'AddEmployee' , path:'addEmployee'},
                 {label:'ViewEmployee' , path:'viewEmployee'}
-              ],
+              ]
                   
         }
       ]
