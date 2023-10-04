@@ -20,7 +20,7 @@ ngOnIt(){
 }
 
 edit(e:Employee){
-  this.hs.emp=Object.assign({},e)
+  this.hs.emp=Object.assign({},e);
 }
 
 }
