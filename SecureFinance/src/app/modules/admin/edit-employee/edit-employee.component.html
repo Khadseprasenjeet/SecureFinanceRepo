@@ -1,3 +1,4 @@
+<p>edit-employee works!</p>
 
 <div  style="width: 79%; height: 600px; float: right; scroll-padding-left: 10%; " >
     <h1>Employee Form</h1>
@@ -6,18 +7,23 @@
   <div class="row">
       <div class="col">
         <div class="form-outline">
-          Name <input type="text" id="form8Example1" class="form-control" placeholder="EX-Abhishek" [(ngModel)]="es.emp.e_name"/>
+          Name <input type="text" id="form8Example1" class="form-control" placeholder="es.emp.e_name" [(ngModel)]="es.emp.e_name"/>
           <label class="form-label" for="form8Example1"></label>
         </div>
          <div class="form-outline">
-          Adress <input type="text" id="form8Example1" class="form-control" [(ngModel)]="es.emp.e_adress" />
+          Adress <input type="text" id="form8Example1" class="form-control" placeholder="es.emp.e_adress" [(ngModel)]="es.emp.e_adress" />
           <label class="form-label" for="form8Example1"></label>
         </div>
       </div>
       <div class="form-outline">
-          E-mail<input type="text" id="form8Example1" class="form-control" [(ngModel)]="es.emp.e_email" />
+          E-mail<input type="text" id="form8Example1" class="form-control" placeholder="es.emp.e_email" [(ngModel)]="es.emp.e_email" />
           <label class="form-label" for="form8Example1"></label>
         </div>
+
+        <div class="form-outline">
+            Password<input type="text" id="form8Example1" class="form-control" placeholder="es.emp.e_password" [(ngModel)]="es.emp.e_password" />
+            <label class="form-label" for="form8Example1"></label>
+          </div>
   
      
          Select the Designation<div class="form-check form-check-inline"><hr>

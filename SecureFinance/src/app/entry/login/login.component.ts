@@ -40,6 +40,13 @@ export class LoginComponent {
     this.router.navigateByUrl('/cm')
 
    }
+   else if(un=='admin' && ps=='admin'){
+    sessionStorage.setItem('type','admin');
+    alert('hello Admin');
+    this.router.navigateByUrl('/admin')
+
+   }
+
    else if(un=='ah' && ps=='ah@123'){
     sessionStorage.setItem('type','ah');
     alert('hello AH');

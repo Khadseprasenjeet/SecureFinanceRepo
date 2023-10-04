@@ -1,1 +1,34 @@
-<p>view-employee works!</p>
+<div class="container">
+
+      <table class="rwd-table">
+        <tbody>
+          <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee's Address</th>
+            <th>Designation</th>
+            <th>Employee's Email</th>
+            <th>Employee's Password</th>
+            <th>Action</th>
+          </tr>
+          <tr  *ngFor="let l of e">
+            <td data-th="Id">{{l.e_id}}</td>
+            <td data-th="Name">{{l.e_name}} </td>
+            <td data-th="Adress">{{l.e_adress}}</td>
+            <td data-th="Desingnation" [ngSwitch]="l.e_role"> <li *ngSwitchCase=1>Relational Executive</li>
+                <li *ngSwitchCase=2>Operational Executive</li>
+                <li *ngSwitchCase=3>Credit Manager</li>
+                <li *ngSwitchCase=4>Account Head</li> </td>
+            <td data-th="Email">
+              {{l.e_email}}
+            </td>
+            <td data-th="Password">
+              {{l.e_password}}
+            </td>
+            <td><button (click)="edit(hs.emp)">edit</button></td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+    </div>
