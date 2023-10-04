@@ -12,7 +12,7 @@ import { EnquiryComponent } from './includes/enquiry/enquiry.component';
 
 import { FooterComponent } from './templates/footer/footer.component';
 import { MenuComponent } from './templates/menu/menu.component';
-import { UsertypePipe } from './pipes/usertype.pipe';
+import { Pipe, PipeTransform } from '@angular/core';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
@@ -54,6 +54,7 @@ import { MatTreeModule } from '@angular/material/tree';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { AppHeaderComponent } from './templates/app-header/app-header.component';
 import { HomeHeaderComponent } from './templates/home-header/home-header.component';
+import { UserTypePipe } from './pipes/user-type.pipe';
 
 @NgModule({
   declarations: [
@@ -66,9 +67,10 @@ import { HomeHeaderComponent } from './templates/home-header/home-header.compone
     EnquiryComponent,
       FooterComponent,
     MenuComponent,
-    UsertypePipe,
+    UserTypePipe,
        AppHeaderComponent,
-      HomeHeaderComponent
+      HomeHeaderComponent,
+      
   ],
   imports: [
     BrowserModule,
@@ -111,22 +113,8 @@ import { HomeHeaderComponent } from './templates/home-header/home-header.compone
     MatTableModule,
     MatTreeModule,
     MatTooltipModule,
+  
     
-
-  ],
-  exports:[
-    AppComponent,
-    HomeDashboardComponent,
-    ApplicationDashboardComponent,
-    LoginComponent,
-    AboutUsComponent,
-    EmicalculatorComponent,
-    EnquiryComponent,
-      FooterComponent,
-    MenuComponent,
-    UsertypePipe,
-       AppHeaderComponent,
-      HomeHeaderComponent
 
   ],
   providers: [],

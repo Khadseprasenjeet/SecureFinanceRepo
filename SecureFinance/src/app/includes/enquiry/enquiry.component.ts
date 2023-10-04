@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-enquiry',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./enquiry.component.css']
 })
 export class EnquiryComponent {
+  constructor(private fb:FormBuilder,){}
+  EnquiryForm:FormGroup;
+  
 
 }
