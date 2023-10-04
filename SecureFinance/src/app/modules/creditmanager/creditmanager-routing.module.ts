@@ -6,7 +6,7 @@ import { PreviousloandetailsComponent } from './previousloandetails/previousloan
 
 const routes: Routes = [
   {
-    path:'bank_details',component:BankdetailsComponent
+    path:'',component:BankdetailsComponent
   },
   {
     path:'custmer_personal_details',component:CustomerpersonaldetailsComponent

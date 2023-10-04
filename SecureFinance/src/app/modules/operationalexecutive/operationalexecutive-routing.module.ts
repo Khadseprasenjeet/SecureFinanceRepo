@@ -5,7 +5,7 @@ import { VerifydocumentComponent } from './verifydocument/verifydocument.compone
 
 const routes: Routes = [
   {
-    path:'check_cibil',component:CheckcibilComponent
+    path:'',component:CheckcibilComponent
   },
   {
     path:'verify_doc',component:VerifydocumentComponent

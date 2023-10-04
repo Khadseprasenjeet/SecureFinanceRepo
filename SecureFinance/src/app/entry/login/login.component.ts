@@ -32,18 +32,18 @@ export class LoginComponent {
    {
     sessionStorage.setItem('type','oe');
     alert('Hello OE')
-    this.router.navigateByUrl('/application/oe')
+    this.router.navigateByUrl('/oe')
    }
    else if(un=='cm' && ps=='cm@123'){
     sessionStorage.setItem('type','cm');
     alert('hello Cm');
-    this.router.navigateByUrl('/application/cm')
+    this.router.navigateByUrl('/cm')
 
    }
    else if(un=='ah' && ps=='ah@123'){
     sessionStorage.setItem('type','ah');
     alert('hello AH');
-    this.router.navigateByUrl('/application/ah')
+    this.router.navigateByUrl('/ah')
 
    }
    else{

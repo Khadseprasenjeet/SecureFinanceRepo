@@ -4,7 +4,7 @@ import { DisbursementComponent } from './disbursement/disbursement.component';
 
 const routes: Routes = [
   {
-    path:'disbursement',component:DisbursementComponent
+    path:'',component:DisbursementComponent
   }
 ];
 
