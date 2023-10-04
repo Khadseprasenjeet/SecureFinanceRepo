@@ -7,7 +7,8 @@
   <div class="row">
       <div class="col">
         <div class="form-outline">
-          Name <input type="text" id="form8Example1" class="form-control" placeholder="es.emp.e_name" [(ngModel)]="es.emp.e_name"/>
+            
+          Name <input type="text" id="form8Example1" class="form-control" placeholder="" [(ngModel)]="es.emp.e_name"/>
           <label class="form-label" for="form8Example1"></label>
         </div>
          <div class="form-outline">
@@ -45,8 +46,10 @@
   
   
   
+
+        <button mat-raised-button color="primary"  (click)="save_enquiry(es.emp)">Submit</button>
  
-  <button mat-stroked-button type="submit" (click)="save_enquiry(es.emp)">Submit</button>
+ 
   </div>
   
   <hr>

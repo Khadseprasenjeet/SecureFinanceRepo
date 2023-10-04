@@ -10,7 +10,7 @@ import { EmployeeService } from 'src/app/service/employee.service';
 export class EditEmployeeComponent {
   constructor(public es:EmployeeService){}
 
-
+  e:Employee= this.es.emp
   save_enquiry(e:Employee)
   {
   this.es.save_employee(e).subscribe();
