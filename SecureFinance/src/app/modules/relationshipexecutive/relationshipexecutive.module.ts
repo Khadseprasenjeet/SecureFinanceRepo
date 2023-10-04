@@ -14,7 +14,7 @@ import { AppHeaderComponent } from 'src/app/templates/app-header/app-header.comp
   declarations: [
     ViewenquiryComponent,
     CreateenquiryComponent,
-    ApplyloanComponent,
+    
     RehomeComponent,
    
   ],
