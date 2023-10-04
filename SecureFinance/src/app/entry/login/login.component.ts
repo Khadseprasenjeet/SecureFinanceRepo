@@ -24,7 +24,7 @@ export class LoginComponent {
    {
     sessionStorage.setItem('type','re');
     alert("Hello RE")
-  this.router.navigateByUrl('/application/re')
+  this.router.navigateByUrl('/re')
   alert('asdf')
    }
    else if(un=='oe' && ps=='oe@123')

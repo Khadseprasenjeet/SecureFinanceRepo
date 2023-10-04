@@ -5,7 +5,7 @@ import { ViewEmployeeComponent } from './view-employee/view-employee.component';
 
 const routes: Routes = [
   {
-    path:'addEmployee',component:AddEmployeeComponent
+    path:'',component:AddEmployeeComponent
   },
   {
     path:'viewEmployee',component:ViewEmployeeComponent

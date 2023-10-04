@@ -8,7 +8,13 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class EnquiryComponent {
   constructor(private fb:FormBuilder,){}
-  EnquiryForm:FormGroup;
+  Enquiryform:FormGroup;
   
 
+  OnEnquiry(){
+
+    
+
+    window.location.reload();
+  }
 }

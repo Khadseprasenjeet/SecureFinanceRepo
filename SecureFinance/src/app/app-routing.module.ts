@@ -18,16 +18,16 @@ const routes: Routes = [
     ]
   },
   {
-    path:'application',component:ApplicationDashboardComponent,
-    children:[
+    path:'application',component:ApplicationDashboardComponent},
+    
       {path:'re' , loadChildren:()=>import('src/app/modules/relationshipexecutive/relationshipexecutive.module').then(m=>m.RelationshipexecutiveModule)},
       {path:'admin' , loadChildren:()=>import('src/app/modules/admin/admin.module').then(m=>m.AdminModule)},
       {path:'cm' , loadChildren:()=>import('src/app/modules/creditmanager/creditmanager.module').then(m=>m.CreditmanagerModule)},
       {path:'ah' , loadChildren:()=>import('src/app/modules/accounthead/accounthead.module').then(m=>m.AccountheadModule)},
       {path:'custmer' , loadChildren:()=>import('src/app/modules/customer/customer.module').then(m=>m.CustomerModule)},
       {path:'oe' , loadChildren:()=>import('src/app/modules/operationalexecutive/operationalexecutive.module').then(m=>m.OperationalexecutiveModule)}
-    ]
-  }
+    
+  
 ];
 
 @NgModule({
