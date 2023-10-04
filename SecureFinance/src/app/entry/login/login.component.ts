@@ -17,6 +17,7 @@ export class LoginComponent {
     })
    
   }
+  
   onUserLogin(){
     let un:string=this.loginForm.controls['username'].value;
    let ps:string=this.loginForm.controls['password'].value;
