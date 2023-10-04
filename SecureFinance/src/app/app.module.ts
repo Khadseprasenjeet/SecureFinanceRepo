@@ -55,6 +55,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { AppHeaderComponent } from './templates/app-header/app-header.component';
 import { HomeHeaderComponent } from './templates/home-header/home-header.component';
 import { UserTypePipe } from './pipes/user-type.pipe';
+import { ContactusComponent } from './templates/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { UserTypePipe } from './pipes/user-type.pipe';
     UserTypePipe,
        AppHeaderComponent,
       HomeHeaderComponent,
+      ContactusComponent,
       
   ],
   imports: [

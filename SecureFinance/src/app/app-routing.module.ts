@@ -6,6 +6,7 @@ import { EmicalculatorComponent } from './includes/emicalculator/emicalculator.c
 import { EnquiryComponent } from './includes/enquiry/enquiry.component';
 import { LoginComponent } from './entry/login/login.component';
 import { ApplicationDashboardComponent } from './entry/application-dashboard/application-dashboard.component';
+import { ContactusComponent } from './templates/contactus/contactus.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
       {path:'about',component:AboutUsComponent},
       {path:'emi',component:EmicalculatorComponent},
       {path:'enquiry',component:EnquiryComponent},
-      {path:'login',component:LoginComponent}
+      {path:'login',component:LoginComponent},
+      {path:'contactus',component:ContactusComponent}
     ]
   },
   {
